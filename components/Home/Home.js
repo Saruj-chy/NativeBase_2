@@ -18,6 +18,18 @@ const Home = ({ history }) => {
       <View style={styles.container}>
         <Button title="Fabs" onPress={() => history.push('/fabs')} />
         <Separator />
+        <Button title="Header Anatomy" onPress={() => history.push('/header')} />
+        <Separator />
+        <Button title="Content Anatomy" onPress={() => history.push('/content')} />
+        <Separator />
+        <Button title="Footer Anatomy" onPress={() => history.push('/footer')} />
+        <Separator />
+        <Button title="Check Box" onPress={() => history.push('/checkbox')} />
+        <Separator />
+        <Button title="Date Picker" onPress={() => history.push('/date')} />
+        <Separator />
+        <Button title="Deck Swiper" onPress={() => history.push('/deck')} />
+        <Separator />
         <Button title="Footer Tabs" onPress={() => history.push('/footer')} />
         <Separator />
         <Button title="Floating Level Input" onPress={() => history.push('/form')} />
