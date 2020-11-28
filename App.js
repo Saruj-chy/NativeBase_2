@@ -18,6 +18,8 @@ import SwiperDeck from './components/SwiperDeck/SwiperDeck';
 import TabsAdvance from './components/TabsAdvance/TabsAdvance';
 import TabsFooter from './components/TabsFooter/TabsFooter';
 import TabsScroolView from './components/TabsScroolView/TabsScroolView';
+import Picker_Ios from './components/Picker_IOS/Picker_Ios';
+import Testing from './components/Testing/Testing';
 
 const App = () => {
   return (
@@ -37,7 +39,8 @@ const App = () => {
       <Route exact path="/form" component={FloatingLebelInput} />
       <Route exact path="/tabsAdv" component={TabsAdvance} />
       <Route exact path="/tabsScrol" component={TabsScroolView} />
-
+      <Route exact path="/ios" component={Picker_Ios} />
+      <Route exact path="/testing" component={Testing} />
 
 
     </NativeRouter>
